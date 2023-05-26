@@ -1,7 +1,7 @@
 # Memo
 This project is an innovative job announcement website created using Node.js and Express. It aims to provide a seamless platform for job seekers and employers to connect and facilitate the hiring process.
 
-#Getting Started
+Getting Started
 To begin running your Node.js and Express project with the command node src/app.js, follow these steps:
 
 Install Node.js: Download and install Node.js from the official website (https://nodejs.org). Choose the version appropriate for your operating system.
