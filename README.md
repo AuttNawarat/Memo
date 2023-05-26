@@ -9,33 +9,33 @@ Create a new project directory: Open a terminal or command prompt and create a n
 Initialize the project: Navigate to the project directory and run the following command to initialize a new Node.js project:
 csharp
 
-'npm init'
+npm init
 
 This will prompt you to enter information about your project and create a package.json file.
 Install Express: Install the Express package by running the following command in your project directory:
 
-'npm install express'
+npm install express
 
 Create a src directory: Inside your project directory, create a src directory to store your source code.
 Create an Express app file: Inside the src directory, create a new JavaScript file (e.g., app.js) and import the Express module:
 javascript
 
-'const express = require('express');
-const app = express();'
+const express = require('express');
+const app = express();
 
 Define routes and middleware: Set up routes and middleware functions to handle requests and perform necessary operations. Refer to the Routes and Middleware sections for more information.
 Start the server: Add the following code to the end of your JavaScript file (src/app.js) to start the server:
 javascript
 
-'const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
-});'
+});
 
 Run the application: In your terminal, run the following command to start your Node.js application:
 bash
 
-'node src/app.js'
+node src/app.js
 
 You should see the message "Server listening on port 3000" indicating that your application is running.
 By placing your app.js file inside the src directory, you can use the command node src/app.js to run your project. Remember to adjust any relative file paths accordingly if you move your files to the src directory.
